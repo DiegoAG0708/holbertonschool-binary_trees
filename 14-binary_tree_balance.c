@@ -21,7 +21,7 @@ return (1);
 lh = h_nodes(tree->left);
 rh = h_nodes(tree->right);
 
-return ((lh > rh ? lh : rh) + 1);
+return ((lh > rh ? lh : rh)+1);
 }
 
 /**
